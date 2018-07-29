@@ -11,4 +11,28 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+//headings
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 200;
+
+  &.lg-heading {
+    font-size: 5rem;
+  }
+  &.sm-heading {
+    margin-bottom: 3rem;
+    padding: 0.5rem 1rem;
+    background: rgba(lighten($primary-background-color, 1), 5);
+  }
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
 }
