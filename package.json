@@ -1,0 +1,22 @@
+{
+  "name": "brian_hague_portfolio",
+  "version": "1.0.0",
+  "description": "Brian Hague Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaseinor/alphaseinor.github.io.git"
+  },
+  "author": "Brian Hague",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphaseinor/alphaseinor.github.io/issues"
+  },
+  "homepage": "https://github.com/alphaseinor/alphaseinor.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
