@@ -19,7 +19,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1000;
-      background: rgba(23, 63, 97, 0.9); }
+      background: rgba(23, 63, 97, 0.7); }
 
 h1,
 h2,
@@ -35,7 +35,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 3rem;
     padding: 0.5rem 1rem;
-    background: #184265; }
+    background: rgba(23, 64, 98, 0.7); }
 
 a {
   color: #bbc59e;
