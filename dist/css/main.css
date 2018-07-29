@@ -29,13 +29,27 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
     font-size: 5rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 3rem;
+    margin-left: -0.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(23, 64, 98, 0.7); }
+    width: 70%;
+    background: rgba(23, 63, 97, 0.7); }
+  h1 i,
+  h2 i,
+  h3 i {
+    font-size: 2.5rem; }
 
 a {
   color: #bbc59e;
