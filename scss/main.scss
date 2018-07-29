@@ -1,5 +1,10 @@
-$primary-background-color: #444;
-$primary-color: #fff;
+$primary-background-color: #173f61;
+$primary-color: #3abd1a;
+$secondary-color: #e9d95e;
+
+@mixin easeInOut {
+  transition: all 0.1s ease-in-out;
+}
 
 * {
   box-sizing: border-box;
@@ -35,4 +40,36 @@ h3 {
 a {
   color: $primary-color;
   text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.text-secondary {
+  color: $secondary-color;
+  &:hover {
+    color: $primary-color;
+    @include easeInOut();
+  }
+}
+
+main {
+  padding: 4rem;
+  height: 100%;
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.75rem;
+
+      &:hover {
+        color: $secondary-color;
+        @include easeInOut();
+      }
+    }
+  }
 }
