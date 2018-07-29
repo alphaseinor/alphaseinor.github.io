@@ -3,7 +3,7 @@
 
 body {
   background: #173f61;
-  color: #3abd1a;
+  color: #bbc59e;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -38,7 +38,7 @@ h3 {
     background: #184265; }
 
 a {
-  color: #3abd1a;
+  color: #bbc59e;
   text-decoration: none; }
 
 header {
@@ -47,9 +47,9 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #e9d95e; }
+  color: #badb3d; }
   .text-secondary:hover {
-    color: #3abd1a;
+    color: #bbc59e;
     transition: all 0.1s ease-in-out; }
 
 main {
@@ -60,7 +60,7 @@ main {
     main .icons a {
       padding: 0.75rem; }
       main .icons a:hover {
-        color: #e9d95e;
+        color: #badb3d;
         transition: all 0.1s ease-in-out; }
   main#home {
     overflow: hidden; }
