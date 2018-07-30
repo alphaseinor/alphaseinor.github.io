@@ -29,7 +29,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 70%;
     font-size: 5rem;
   }
   &.sm-heading {
@@ -45,9 +45,6 @@ h3 {
       lighten($primary-background-color, $background-lighten),
       $background-opacity
     );
-  }
-  i {
-    font-size: 2.5rem;
   }
 }
 
