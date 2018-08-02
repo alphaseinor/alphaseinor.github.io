@@ -31,7 +31,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
+    padding-top: 6vh;
     float: left;
     width: 50%;
     height: 100vh;
@@ -53,8 +53,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 18vh;
-      height: 18vh;
+      width: 200px;
+      height: 200px;
       background: url(../img/portrait.jpg);
       border-radius: 25%;
       border: solid 3px #badb3d; }
@@ -108,6 +108,7 @@
     font-size: 1.5rem; }
   .menu-branding {
     height: 25vh;
+    padding: 0px;
     transform: translate3d(100%, 0, 0); } }
 
 @media screen and (max-width: 500px) {

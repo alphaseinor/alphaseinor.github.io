@@ -51,7 +51,8 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
+    padding-top: 6vh;
+    //justify-content: center;
     float: left;
     width: 50%;
     height: 100vh;
@@ -82,8 +83,8 @@
     }
 
     .portrait {
-      width: 18vh;
-      height: 18vh;
+      width: 200px;
+      height: 200px;
       background: url(../img/portrait.jpg);
       border-radius: 25%;
       border: solid 3px $secondary-color;
