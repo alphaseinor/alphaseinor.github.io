@@ -51,8 +51,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    //justify-content: center;
-    padding-top: 18vh;
+    justify-content: center;
     float: left;
     width: 50%;
     height: 100vh;
@@ -72,6 +71,8 @@
   }
   //branding side
   &-branding {
+    align-content: center;
+    align-items: center;
     background: $primary-background-color;
     transform: translate3d(0, 100%, 0);
     @include easeInOut;
