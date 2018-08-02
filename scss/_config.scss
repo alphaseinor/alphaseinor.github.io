@@ -27,6 +27,16 @@ $overlay-opacity: 0.9;
   }
 }
 
+//set text color
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return black;
+  } @else {
+    @return $primary-color;
+  }
+}
+
 @mixin easeInOut {
   transition: all 0.1s ease-in-out;
 }
