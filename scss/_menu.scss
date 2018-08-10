@@ -57,6 +57,9 @@
     width: 50%;
     height: 100vh;
     overflow: hidden;
+    &.other {
+      width: 100%;
+    }
   }
 
   &-nav {
