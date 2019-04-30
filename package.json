@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/alphaseinor/alphaseinor.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.12.0"
   }
 }
